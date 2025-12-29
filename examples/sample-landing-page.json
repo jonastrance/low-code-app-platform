@@ -1,0 +1,64 @@
+[
+  {
+    "id": "text-1",
+    "type": "Text",
+    "props": {
+      "content": "Welcome to Our Platform",
+      "size": "xlarge",
+      "weight": "bold",
+      "color": "#333333"
+    },
+    "children": []
+  },
+  {
+    "id": "text-2",
+    "type": "Text",
+    "props": {
+      "content": "Build amazing applications with our drag-and-drop builder",
+      "size": "medium",
+      "weight": "normal",
+      "color": "#666666"
+    },
+    "children": []
+  },
+  {
+    "id": "card-1",
+    "type": "Card",
+    "props": {
+      "title": "Feature 1: Easy to Use",
+      "content": "Drag and drop components to build your application quickly and efficiently.",
+      "elevation": "medium"
+    },
+    "children": []
+  },
+  {
+    "id": "card-2",
+    "type": "Card",
+    "props": {
+      "title": "Feature 2: Pre-built Components",
+      "content": "Choose from a rich library of professionally designed components.",
+      "elevation": "medium"
+    },
+    "children": []
+  },
+  {
+    "id": "input-1",
+    "type": "Input",
+    "props": {
+      "label": "Email Address",
+      "placeholder": "Enter your email...",
+      "type": "email"
+    },
+    "children": []
+  },
+  {
+    "id": "button-1",
+    "type": "Button",
+    "props": {
+      "text": "Get Started Now",
+      "variant": "primary",
+      "size": "large"
+    },
+    "children": []
+  }
+]
