@@ -76,8 +76,8 @@ export const componentLibrary: ComponentDefinition[] = [
     icon: '📦',
     defaultProps: {
       direction: 'column',
-      gap: '10',
-      padding: '20',
+      gap: 10,
+      padding: 20,
     },
     propDefinitions: [
       { 

@@ -67,7 +67,7 @@ export const PropertyEditor: React.FC<PropertyEditorProps> = ({
                 <input
                   type="number"
                   value={currentValue}
-                  onChange={(e) => handlePropChange(propDef.name, parseInt(e.target.value))}
+                  onChange={(e) => handlePropChange(propDef.name, parseInt(e.target.value) || 0)}
                   className="property-input"
                 />
               )}
