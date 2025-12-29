@@ -58,6 +58,14 @@ npm run build
 5. **Export**: Save your design as JSON for later use or sharing
 6. **Import**: Load previously saved designs to continue editing
 
+### Example Designs
+
+The `examples/` folder contains ready-to-use design templates:
+- **sample-landing-page.json**: A complete landing page with text, cards, input, and button
+- **contact-form.json**: A contact form with multiple input fields
+
+To use an example, click "Import" and select one of these files.
+
 ## 🏗️ Architecture
 
 ```
