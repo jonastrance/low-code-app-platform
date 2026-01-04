@@ -1,0 +1,73 @@
+[
+  {
+    "id": "form-1",
+    "type": "Form",
+    "props": {
+      "title": "Contact Us",
+      "submitText": "Send Message"
+    },
+    "children": []
+  },
+  {
+    "id": "text-1",
+    "type": "Text",
+    "props": {
+      "content": "Get in Touch",
+      "size": "xlarge",
+      "weight": "bold",
+      "color": "#2c3e50"
+    },
+    "children": []
+  },
+  {
+    "id": "text-2",
+    "type": "Text",
+    "props": {
+      "content": "Fill out the form below and we'll get back to you shortly.",
+      "size": "medium",
+      "weight": "normal",
+      "color": "#7f8c8d"
+    },
+    "children": []
+  },
+  {
+    "id": "input-1",
+    "type": "Input",
+    "props": {
+      "label": "Full Name",
+      "placeholder": "John Doe",
+      "type": "text"
+    },
+    "children": []
+  },
+  {
+    "id": "input-2",
+    "type": "Input",
+    "props": {
+      "label": "Email Address",
+      "placeholder": "john@example.com",
+      "type": "email"
+    },
+    "children": []
+  },
+  {
+    "id": "input-3",
+    "type": "Input",
+    "props": {
+      "label": "Phone Number",
+      "placeholder": "+1 (555) 123-4567",
+      "type": "text"
+    },
+    "children": []
+  },
+  {
+    "id": "button-1",
+    "type": "Button",
+    "props": {
+      "text": "Submit Form",
+      "variant": "success",
+      "size": "large"
+    },
+    "children": []
+  }
+]

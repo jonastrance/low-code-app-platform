@@ -1,0 +1,83 @@
+.property-editor {
+  width: 280px;
+  background-color: #f8f9fa;
+  border-left: 1px solid #dee2e6;
+  padding: 20px;
+  overflow-y: auto;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.editor-title {
+  margin: 0 0 20px 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.no-selection {
+  text-align: center;
+  color: #6c757d;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+.component-type-label {
+  background-color: #e9ecef;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #495057;
+}
+
+.properties-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.property-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.property-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #495057;
+}
+
+.property-input,
+.property-select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.property-input:focus,
+.property-select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.1);
+}
+
+.property-checkbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.property-color {
+  width: 100%;
+  height: 40px;
+  padding: 4px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  cursor: pointer;
+}
